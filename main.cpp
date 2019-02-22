@@ -1,4 +1,4 @@
-// second max
+// second max in array
 
 #include <iostream>
 
@@ -23,7 +23,7 @@ int main()
             i++;
             break;
         }
-        if(maxi>arr[i])
+        else if(maxi>arr[i])
         {
             smax=arr[i];
             i++;
